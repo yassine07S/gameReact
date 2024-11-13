@@ -1,0 +1,49 @@
+/* App.css */
+.Hyt {
+    text-align: center;
+  }
+  
+  .board {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 320px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .square {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .square.black {
+    background-color: #000;
+  }
+  
+  .square.white {
+    background-color: #fff;
+  }
+  
+  .piece {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .piece.red {
+    background-color: red;
+  }
+  
+  .piece.black {
+    background-color: black;
+    
+  }
+  
+  
